@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.biography,.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    background-image: url("./resources/header-bg.png");
+}
+
+.half h1{
+    color: #ec4f8e;
+    font-size: 50px;
+}
+
+.half h2{
+    font-size: 40px;
+}
+
+.half button{
+    background-color: #ec4f8e;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.half p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.half{
+    width: 50%;
+}
+
+.half img{
+    width: 80%;
+}
+
+/* biography section  */
+.biography{
+    background-image: url("./resources/biography-bg.png");
+}
+
+/* latest work section  */
+
+.latest-work{
+    padding: 30px 60px;
+    text-align: center;
+    background-image: url("./resources/latest-work-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-work .gallery{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.latest-work .gallery div{
+    box-shadow: 10px 10px 10px dimgray;
+}
+
+.latest-work img{
+    width: 150px;
+}
+
+/* feedback section  */
+.feedback{
+    background-image: url("./resources/latest-work-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.feedback h2{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.feedback>p{
+    width: 350px;
+    line-height: 2rem;
+    margin-top: 30px;
+    
+}
+
+.feedback .contact{
+    background-color: #ec4f8e;
+    padding: 10px 80px;
+    margin-top: 40px;
+    border-radius: 6px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
